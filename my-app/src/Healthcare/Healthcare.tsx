@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Healthcare() {
   return (
     <div className="Healthcare">
-
+      healthcare
     </div>
   );
 }
