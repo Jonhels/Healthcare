@@ -10,8 +10,8 @@ function Information() {
     <div className="Information">
       <a className='map' href={'https://goo.gl/maps/T99Lrc9xEbPrr1QX9'}><img src={Pin} alt="Pin" />123 Anywhere St., Any City, ST 12345</a>
       <a className='phone' href={'tel:+123-456-7890'}><img src={Phone} alt="Phone" />+123-456-7890</a>
-      <a className='hour' href={'#'}>Emergency Care <span className='h-Text'>(24hrs)</span></a>
-      <a className='donate' href={'#'}><img src={Heart} alt="Heart" />Donate</a>
+      <a className='hour' href={'#24'}>Emergency Care <span className='h-Text'>(24hrs)</span></a>
+      <a className='donate' href={'#donate'}><img src={Heart} alt="Heart" />Donate</a>
     </div>
   );
 }
