@@ -7,15 +7,17 @@
 }
 
 .Health-content {
+    display: flex;
+    flex-direction: column;
     width: 450px;
+    height: 800px;
+    color: #ffffff;
 }
 
-.Health-content {
-    flex-direction: column;
-    background-color: red;
+.Health-content a {
+    text-decoration: none;
 }
 
 .Header-img {
     width: 200px;
 }
-
