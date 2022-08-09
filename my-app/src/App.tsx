@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Information from './Information/Information';
 import Navigation from './Navigation/Navigation';
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './Information.css';
 import Pin from './Pin.svg';
 import Phone from './Phone.svg';
