@@ -3,7 +3,7 @@
     height: 90vh;
     background-color: #3E645E;
     display: grid;
-    grid-template: 500px / 500px 500px;
+    grid-template: 150px 400px/ 200px 1000px 450px;
 }
 
 .Health-content {
