@@ -11,7 +11,7 @@ function Healthcare() {
           <h1>We Provide a Smart and Modern leading healthcare for people worldwide</h1>
           <div className='Buttons-wrapper'>
             <a className='Button-book' href="#"><p>Book Appointment</p></a>
-            <a className='Button-find' href="#">Find a Clinic</a>
+            <a className='Button-find' href="#"><p>Find a Clinic</p></a>
           </div>
         </div>
         <a className='News-link' href="#"><span className='News'>NEWS</span>COVID-19 Community Testing Sites Now Open</a>

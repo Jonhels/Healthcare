@@ -1,9 +1,9 @@
 .HealthHeader {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     background-color: #3E645E;
     display: grid;
-    grid-template: 150px 400px/ 200px 1000px 450px;
+    grid-template: 150px 400px 100px 120px 50px/ 200px 1000px 450px;
 }
 
 .Health-content {
@@ -32,29 +32,37 @@
     margin-bottom: 45px;
 }
 
-.Buttons-wrapper{
+.Buttons-wrapper {
     display: flex;
     align-items: center;
-    width: 330px;
+    justify-content: space-between;
+    width: 400px;
 }
 
-.Button-book {
-    background-color: #AEC62E;
+.Button-book,
+.Button-find {
     color: #ffffff;
-    width: 212px;
-    height: 60px;
 }
 
 .Button-book p {
     width: 212px;
-    height: 60px;
     background-color: #AEC62E;
-    font-size: 1em;
-    font-weight: 500;
+}
+
+.Button-book p,
+.Button-find p {
     display: flex;
     justify-content: center;
     align-content: center;
     border-radius: 4px;
+    font-size: 1em;
+    font-weight: 500;
+    height: 60px;
+}
+
+.Button-find p {
+    width: 161px;
+    border: 1px solid #ffffff;
 }
 
 .Health-content a {
@@ -62,5 +70,28 @@
 }
 
 .Header-img {
-    width: 200px;
+    width: 800px;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.News-link {
+    grid-column: 3;
+    grid-row: 5;
+    background-color: #ffffff;
+    color: #64626A;
+    text-decoration: none;
+    height: 30px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.News {
+    margin-right: 5px;
+    padding-right: 5px;
+    border-right: 1px solid #E8E7E8;
+    font-weight: 500;
 }
