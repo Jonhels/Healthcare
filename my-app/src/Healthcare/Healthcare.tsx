@@ -25,7 +25,7 @@ function Healthcare() {
             <p>Book an appointments</p>
           </div>
           <div className='Chat'>
-            <img src={Book} alt="Chat" />
+            <img src={Chat} alt="Chat" />
             <p>Chat with your doc & health team</p>
           </div>
           <div className='Mind'>
